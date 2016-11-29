@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+	margin: 0;
+    background-color:#7cb25e;
+
+}
+
+.building {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.bg {
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.pogr {
+    
+    top: 67%;
+    left: 30%;
+}
+
+.aboutCompany {
+    position: absolute;
+    top: 80.9%;
+    left: 24.7%;
+}
+
+.services {
+    position: absolute;
+    top: 74.4%;
+    left: 36.9%;
+}
+
+.news {
+    position: absolute;
+    display: block;
+    top: 68.2%;
+    left: 48.7%;
+}
+
+.contacts {
+    z-index: 2;
+    position: absolute;
+    top: 54%;
+    left: 75.4%;
+}
+
+.auto {
+    width: 200px;
+    z-index: 1;
+    position:absolute; ;
+    -webkit-animation-name: car1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 8s; /* Chrome, Safari, Opera */
+    animation-name: car1;
+    animation-duration: 8s;
+    -webkit-animation: car1 18s infinite; /* Chrome, Safari, Opera */
+    animation: car1 18s 0;
+}
+
+@-webkit-keyframes car1 {
+    0%   {left:79%; top:52%;}
+    10%   {left:79%; top:52%;}
+    45%  {left:101%; top:52%;}
+    55%  {left:101%; top:52%;}
+    90%  {left:79%; top:52%;}
+    100%  {left:79%; top:52%;}
+}
+
+@keyframes car1 {
+    0%   {left:79%; top:52%;}
+    10%   {left:79%; top:52%;}
+    45%  {left:101%; top:53%;}
+    55%  {left:101%; top:53%;}
+    90%  {left:79%; top:52%;}
+    100%  {left:79%; top:52%;}
+}
+
+.pogr {
+    position: absolute;
+    z-index:8;
+    position:absolute;
+    -webkit-animation-name: pogr1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 8s; /* Chrome, Safari, Opera */
+    animation-name: pogr1;
+    animation-duration: 8s;
+    -webkit-animation: pogr1 18s infinite; /* Chrome, Safari, Opera */
+    animation: pogr1 18s 1;
+}
+
+@-webkit-keyframes pogr1 {
+    0%   {left:30%; top:67%;}
+    10%   {left:79%; top:52%;}
+    45%  {left:101%; top:52%;}
+    55%  {left:101%; top:52%;}
+    90%  {left:79%; top:52%;}
+    100%  {left:79%; top:52%;}
+}
+
+@keyframes pogr1 {
+    0%   {left:38%; top:63%;}
+    100%  {left:20%; top:74%;}
+}
